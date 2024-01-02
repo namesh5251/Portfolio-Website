@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <ul class="navlist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="left-container">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="content">
+          <p class="intro">Hi ! I am <span>Namesh Gandhi</span></p>
+          <h1>Web Developer.</h1>
+          <p class="detail">
+            Welcome to my web developer portfolio ! I'm <span>Namesh</span>, a
+            skilled and creative web developer with a passion for creating
+            beautiful,resposive and user-friendly websites.
+          </p>
+          <div class="btn-container">
+            <button>Hire Me</button>
+            <button>View Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-container"></div>
+      <div class="design">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="skill-heading" id="skills">
+        <h1>Skills</h1>
+      </div>
+      <div class="skill-container">
+        <div class="skills">
+          <img src="./Images/html.png" alt="html-icon" />
+          <h4 class="heading">HTML</h4>
+          <p class="description">
+            HTML is the standard markup language used to create the structure
+            and content of web pages. It consists of a series of elements, each
+            represented by tags, which define the various components of a
+            webpage such as headings, paragraphs, links, images, forms, and
+            more.
+          </p>
+        </div>
+
+        <div class="skills">
+          <img src="./Images/css.png" alt="css-icon" />
+          <h4 class="heading">CSS</h4>
+          <p class="description">
+            CSS, or Cascading Style Sheets, is a styling language used in web
+            development to control the presentation and layout of HTML
+            documents. It enables web designers to define the visual appearance
+            of web pages, including elements such as fonts, colors, spacing, and
+            positioning.
+          </p>
+        </div>
+
+        <div class="skills">
+          <img src="./Images/js.png" alt="js-icon" />
+          <h4 class="heading">JavaScript</h4>
+          <p class="description">
+            JavaScript is a versatile and dynamic programming language commonly
+            used in web development to enhance the interactivity and
+            functionality of websites. As a client-side scripting language, it
+            runs directly in web browsers, allowing developers to manipulate the
+            content of web pages in real-time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-container" id="about">
+      <div class="about-heading">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="details">
+        <p class="p1">
+          Hello, I'm <span>Namesh Gandhi</span> , a passionate and innovative
+          web developer dedicated to crafting immersive and user-centric online
+          experiences.
+        </p>
+
+        <p class="p2">
+          My expertise lies in front-end and back-end development, allowing me
+          to seamlessly blend design with functionality. Proficient in HTML,
+          CSS, and JavaScript, I ensure responsive and cross-browser
+          compatibility for a flawless user experience across
+          devices.Collaboration is at the heart of my approach, working closely
+          with clients to understand their vision and translating it into a
+          digital reality.
+        </p>
+
+        <p class="p3">
+          As a web developer, my ethos is rooted in collaboration and invention.
+          I thrive on working seamlessly with diverse teams, translating ideas
+          into dynamic digital solutions. Collaborating closely with designers
+          and stakeholders, I ensure a harmonious fusion of creativity and
+          functionality in every project. Embracing innovation, I constantly
+          explore cutting-edge technologies, frameworks, and methodologies to
+          bring fresh ideas to the table.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-container" id="project">
+      <div class="project-heading">
+        <h1>Projects</h1>
+      </div>
+
+      <div class="slider">
+        <input type="radio" id="img1" name="radio1" checked />
+        <input type="radio" id="img2" name="radio1" />
+        <input type="radio" id="img3" name="radio1" />
+        <input type="radio" id="img4" name="radio1" />
+
+        <a
+          href="https://simple-calculator-one.netlify.app"
+          target="_blank"
+          class="m1"
+          ><img src="./Images/calculator.jpg" alt="calculator"
+        /></a>
+        <a
+          href="https://card-memory-game1.netlify.app"
+          target="_blank"
+          class="m2"
+          ><img src="./Images/memory-game.jpg" alt="memory-game"
+        /></a>
+        <a
+          href="https://simplest-digital-clock.netlify.app"
+          target="_blank"
+          class="m3"
+          ><img src="./Images/digital-clock.jpg" alt="digital-clock"
+        /></a>
+        <a
+          href="https://animated-loading-spinner.netlify.app"
+          target="_blank"
+          class="m4"
+          ><img src="./Images/loading-spinner.jpg" alt="loading-spinner"
+        /></a>
+      </div>
+
+      <div class="dots">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+        <label for="img4"></label>
+      </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+      <h1>Contact Me</h1>
+      <div class="contact-content">
+        <input type="name" name="name" placeholder="Your Name" id="name" />
+
+        <input type="email" name="email" placeholder="E-mail" id="email" />
+
+        <textarea
+          name="message"
+          id="textarea"
+          cols="30"
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
